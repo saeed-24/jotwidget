@@ -1,4 +1,4 @@
-const params = JFCustomWidget.getWidgetParameter('openaiApiKey');
+const apiKey = JFCustomWidget.getWidgetSetting('openaiApiKey');
 // subscribe when ready
 JFCustomWidget.subscribe('ready', function() {
   // resize if needed
